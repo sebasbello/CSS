@@ -20,7 +20,7 @@ body {
   bottom: 0;
   -webkit-perspective: 1200px;
   perspective: 1200px;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .card:hover {
