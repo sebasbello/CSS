@@ -24,11 +24,11 @@ body {
 }
 
 .card:hover {
-    transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
 
 .card:hover .outside {
-    transform: rotateY(-130deg);
+  transform: rotateY(-130deg);
 }
 
 .outside,
@@ -52,11 +52,11 @@ body {
 }
 
 .outside {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    z-index: 1;
-    transform-origin: left;
-    transition: 1s;  
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  z-index: 1;
+  transform-origin: left;
+  transition: 1s;
 }
 
 .front,
@@ -132,28 +132,28 @@ body {
 }
 
 .candle::before {
-    content: "";
-    position: absolute;
-    height: 16px;
-    width: 16px;
-    background-color: #e056fd;
-    border-radius: 0 50% 50% 50%;
-    bottom: 48px;
-    transform: rotate(45deg);
-    left: -1px;
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  background-color: #e056fd;
+  border-radius: 0 50% 50% 50%;
+  bottom: 48px;
+  transform: rotate(45deg);
+  left: -1px;
 }
 
 .outside p,
 .inside p {
-    font-size: 23px;
-    text-transform: uppercase;
-    margin-top: 30px;
-    text-align: center;
-    letter-spacing: 6px;
-    color: #ffa502;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 6px;
+  color: #ffa502;
 }
 
 .inside h1 {
-    font-size: 120px;
-    line-height: 200px;
+  font-size: 120px;
+  line-height: 200px;
 }
